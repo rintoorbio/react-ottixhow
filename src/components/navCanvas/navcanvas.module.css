@@ -1,0 +1,38 @@
+/* Default styles for the row and columns */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftCol {
+    flex: 1; 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
+
+.rightCol {
+    flex: 0; 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Media query to hide the right column on screens less than 780px */
+@media (max-width: 750px) {
+    .hidesmallscreen {
+        display: none;
+    }
+}
+
+/* Media query to make the left column occupy 100% width on screens less than 780px */
+@media (max-width: 780px) {
+    .leftCol {
+        flex: 1;
+    }
+}
+
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }

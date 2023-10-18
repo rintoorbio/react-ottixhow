@@ -1,0 +1,43 @@
+.navlink {
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+  color: #cccacf;
+}
+.iconContainer{
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+.navlink::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Set the desired height for the underline */
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.navlink:hover::before {
+  width: 25%; /* Expand the underline to 100% on hover */
+}
+
+/* social icons color code while hovering */
+.socialiconfb:hover {
+  color: #3b5998 !important;
+}
+.socialiconinsta:hover {
+  color: rgb(193, 53, 132) !important;
+}
+.socialiconlinkedin:hover {
+  color: #0072b1 !important;
+}
+.socialicontwitter:hover {
+  color: #26a7de !important;
+}

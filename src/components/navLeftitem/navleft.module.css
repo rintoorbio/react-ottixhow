@@ -1,0 +1,6 @@
+.customH3 {
+    color: #d2d3d5;
+}
+.customH3:hover {
+    color: white;
+}

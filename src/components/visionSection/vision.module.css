@@ -1,0 +1,18 @@
+.newcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    height: 189px;
+    margin-bottom: 17px;
+    word-wrap: break-word;
+    /* overflow: scroll; */
+  }
+  .newcard:hover {
+    -webkit-box-shadow: 0 1px 10px 2px #dddddd;
+    -moz-box-shadow: 0 1px 10px 2px #dddddd;
+    box-shadow: 0 1px 10px 2px #dddddd;
+  
+    /* overflow: scroll; */
+  }
+  

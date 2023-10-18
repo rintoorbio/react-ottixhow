@@ -1,0 +1,25 @@
+.const {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: none;
+  width: 210px;
+  padding: 38px;
+  margin-bottom: 18px;
+  transition: 0.3s; /* Smooth transition for the background on hover */
+}
+
+.const:hover {
+  background: #faa71c; /* New background color on hover */
+}
+
+.iconstyle {
+  color: #faa71c;
+  font-size: 100px;
+  transition: color 0.3s; /* Smooth transition for the icon color on hover */
+}
+
+.const:hover .iconstyle {
+  color: white; /* Change icon color to white on .const:hover with a smooth transition */
+}

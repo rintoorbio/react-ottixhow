@@ -1,0 +1,9 @@
+.navitemlink a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #222733;
+  }
+  .navitemlink a:hover {
+    color: #e78610;
+  }
+  

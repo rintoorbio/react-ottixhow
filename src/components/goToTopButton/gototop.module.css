@@ -1,0 +1,10 @@
+.gotopbtn {
+    position: fixed;
+    cursor: pointer;
+    right: -30px;
+    z-index: 999;
+    color: #faa71c;
+    bottom: 47px;
+    transform: rotate(-90deg);
+    font-weight: bold;
+}

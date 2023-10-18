@@ -1,0 +1,35 @@
+.closeSection{
+    text-align: end;
+    margin-top: 70px;
+    margin-right: 67px;
+    cursor: pointer;
+    color: #d2d3d5;
+}
+
+/* animation of the underline */
+.underline_anim {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+    /* Define the underline style */
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffffff;
+      transform: scaleX(1);
+      transform-origin: bottom left;
+      transition: transform 0.5s ease-in-out;
+    }
+  
+    &:hover:after {
+      transform: scaleX(0);
+      transform-origin: bottom left;
+    }
+  }
+  

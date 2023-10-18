@@ -1,0 +1,40 @@
+.cursor {
+  cursor: pointer;
+}
+.logoimg {
+  max-height: 36px;
+}
+.navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.navlink:hover {
+  color: #faa71c;
+}
+.toggleIconend {
+  display: flex;
+  justify-content: end;
+}
+.dropdownNav {
+  font-size: 17px !important;
+  background-color: #222733 !important;
+}
+.dropdownNav a {
+  color: #cccccc;
+  text-decoration: none;
+}
+.dropdownNav a:hover {
+  color: white;
+}
+.active {
+  color: #faa71c;
+}
+.navBackground {
+  background-color: transparent;
+  color: white;
+}
+.scrolled {
+  background-color: black;
+  color: white;
+}

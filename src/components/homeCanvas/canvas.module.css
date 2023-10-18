@@ -1,0 +1,76 @@
+.logoimg {
+  height: 42px;
+}
+.headingtitle {
+  font-size: 28px;
+  color: #faa71c;
+  margin-top: 50px;
+}
+/* button & arrow animation */
+.schedulebtn {
+  margin-top: 46px;
+  position: relative;
+  display: inline-block;
+  padding: 16px 23px !important;
+  border-radius: 37px !important;
+  background-color: #2f39d3 !important;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.schedulebtn .text {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.schedulebtn .arrow {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.schedulebtn:hover {
+  background-color: #2f39d3 !important;
+}
+
+.schedulebtn:hover .text {
+  transform: translateX(-10px);
+}
+
+.schedulebtn:hover .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*  */
+.linedivider {
+  margin-top: 40px;
+  color: black;
+}
+.info {
+  font-size: 17px;
+  color: #797c7f;
+}
+
+/* Add this CSS to your stylesheet */
+.BsArrowRight {
+  transition: transform 0.3s ease; /* Add a transition for the transform property */
+}
+
+.schedulebtn:hover .BsArrowRight {
+  transform: translateX(5px); /* Adjust the distance the arrow moves */
+}
+
+.offcanvasWrapper {
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+ }
+ 
+ .offcanvasWrapper.closing {
+  opacity: 0;
+ }

@@ -1,0 +1,12 @@
+.imgwrapper {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.innerimg {
+  transition: 0.3s;
+}
+
+.innerimg:hover {
+  transform: scale(1.03);
+}

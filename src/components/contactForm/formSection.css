@@ -1,0 +1,32 @@
+.submitbtn {
+  border: none;
+  color: white;
+  background: #faa71c;
+  border-radius: 65px;
+  height: 60px;
+  width: 200px;
+}
+.submitbtn:hover{
+  background-color: #1890ffff;
+}
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+.inputfield {
+  border: none;
+  border-bottom: 1px solid #e2e2e2;
+  border-radius: 0px;
+  width: 100%;
+  height: 65px;
+}
+
+.inputfield:hover {
+  border-bottom: 1px solid black;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.inputfield:focus {
+  outline: none;
+}
