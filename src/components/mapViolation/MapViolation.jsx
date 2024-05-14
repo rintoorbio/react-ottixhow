@@ -5,7 +5,7 @@ import ScheduleDemoArrow from '../scheduledemoarrow/ScheduleDemoArrow'
 function MapViolation() {
   return (
     <div>
-    <Container className="p-5">
+    <Container fluid className="p-5">
           <Row>
             <Col md={6} >
             <div>

@@ -7,7 +7,7 @@ function CompetitorAlert() {
   const navigate = useNavigate();
   return (
     <div>
-    <Container className="pb-5">
+    <Container fluid className="pb-5">
       <Row>
         <Col md={6}>
           <div>

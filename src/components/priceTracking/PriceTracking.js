@@ -7,7 +7,7 @@ function PriceTracking() {
     const navigate = useNavigate()
   return (
     <div>
-    <Container className="mt-4 mb-3" >
+    <Container fluid className="mt-4 mb-3" >
       <Row className="mb-3">
         <h1>Price Tracking</h1>
       </Row>

@@ -1,9 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
 import CarouselItems from "../carouselItems/CarouselItems";
 
-function HomeCarousel() {
+const HomeCarousel = () => {
   return (
-    <Carousel interval={6000} fade>
+    <div>
+      <Carousel interval={6000} fade>
         <Carousel.Item>
         <img
         alt="img"
@@ -38,7 +39,8 @@ function HomeCarousel() {
         />
       </Carousel.Item>
     </Carousel>
+    </div>
   )
 }
 
-export default HomeCarousel;
+export default HomeCarousel

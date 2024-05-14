@@ -2,11 +2,13 @@ import React from 'react'
 import styles from "./aboutintro.module.css";
 
 import { Col, Container, Row } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 
 function AboutIntro() {
+  const navigate = useNavigate()
   return (
-    <Container>
+    <Container fluid>
     <Row>
     <Col md={6} >
         <div>
@@ -17,7 +19,7 @@ function AboutIntro() {
         />
         </div>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"18px"}} >
-        <button className={`${styles.abtbtn}`} >Contact Us</button>
+        <button onClick={()=>navigate("/contact-us")} className={`${styles.abtbtn}`} >Contact Us</button>
         </div>
       </Col>
       <Col md={6} className='mt-5' >

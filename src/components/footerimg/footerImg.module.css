@@ -1,0 +1,10 @@
+.contactBtn {
+  border-radius: 30px;
+  background-color: #faa71c;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  color: white;
+}
+.contactBtn:hover {
+  background-color: #195786;
+}

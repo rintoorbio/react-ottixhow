@@ -10,8 +10,10 @@ function BlogCards({ title, img, goto }) {
   return (
     <>
       <Card onClick={handleNavigate} className="mb-3 img-wrapper border-0">
-        <Card.Img className="inner-img" variant="top" src={img} alt="img" />
-        <Card.Body>
+        <div className="img-container">
+          <Card.Img className="inner-img" variant="top" src={img} alt="img" />
+        </div>
+        <Card.Body className="img-wrapper-card-body">
           <Card.Title>{title}</Card.Title>
         </Card.Body>
       </Card>

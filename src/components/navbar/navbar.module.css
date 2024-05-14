@@ -14,7 +14,7 @@
 }
 .toggleIconend {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .dropdownNav {
   font-size: 17px !important;
@@ -37,4 +37,5 @@
 .scrolled {
   background-color: black;
   color: white;
+  transition: background-color 0.4s;
 }

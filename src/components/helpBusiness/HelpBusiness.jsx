@@ -3,10 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 function HelpBusiness() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col md={6} >
-          <div style={{width:"200px"}}>
+          <div >
             <h2>How we help businesses?</h2>
           </div>
           <div>

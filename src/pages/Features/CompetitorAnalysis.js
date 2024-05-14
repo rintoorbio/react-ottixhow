@@ -38,7 +38,7 @@ function CompetitorAnalysis() {
       </Row>
       </Container>
 
-        <Container>
+        <Container fluid>
       <Row className='mt-5' ref={firstRowRef} >
       <CompetitorDesc />
       </Row>

@@ -12,10 +12,10 @@ function ResourceSection() {
     <div style={{background:"#f6f6f6"}}>
     <Container fluid >
      <Row>
-          <Col sm={12} className="text-center mt-5 mb-4" ><span>MODERN DESIGN</span></Col>
+          <Col sm={12} className="text-center mt-5 mb-3" ><span>MODERN DESIGN</span></Col>
         </Row>
         <Row>
-          <Col sm={12} className="text-center mt-1 mb-5" >
+          <Col sm={12} className="text-center mt-1 mb-1" >
             <h1>We develop & create digital future.</h1>
           </Col>
         </Row>

@@ -1,34 +1,35 @@
-.homebtn{
-    border: none;
-    background-color: #faa71c;
-    width: 128px;
-    height: 50px;
-    color: whitesmoke;
-    border-radius: 35px;
+.homebtn {
+  border: none;
+  background-color: #faa71c;
+  width: 128px;
+  height: 50px;
+  color: whitesmoke;
+  border-radius: 35px;
 }
-.homebtn:hover{
-    background-color: #0676b3;
+.homebtn:hover {
+  background-color: #0676b3;
 }
-.errorContainer{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.errorContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .headingClass {
-    font-size: 120px;
-    color: black;
-  }
-  
-  .spantag {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .ptag {
-    font-size: 18px;
-    color: #666;
-    margin: 20px 0;
-  }
+  font-size: 170px;
+  color: black;
+}
+
+.spantag {
+  font-size: 24px;
+  color: #333;
+}
+
+.ptag {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+}

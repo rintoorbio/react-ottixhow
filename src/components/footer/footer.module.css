@@ -2,8 +2,12 @@
   position: relative;
   text-decoration: none; /* Remove default underline */
   color: #cccacf;
+  transition: margin-left 0.3s; /* Add a transition for margin-left */
 }
-.iconContainer{
+.navlink:hover {
+  margin-left: 7px;
+}
+.iconContainer {
   border: 1px solid grey;
   border-radius: 50%;
   width: 30px;
@@ -23,9 +27,8 @@
   background-color: white;
   transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
 }
-
 .navlink:hover::before {
-  width: 25%; /* Expand the underline to 100% on hover */
+  width: 50%; /* Expand the underline to 100% on hover */
 }
 
 /* social icons color code while hovering */
@@ -40,4 +43,55 @@
 }
 .socialicontwitter:hover {
   color: #26a7de !important;
+}
+.certificateicon {
+  margin-top: 20px;
+  display: flex;
+}
+.footerCopyright{
+  color: #cccacf;
+  font-size: 14px;
+}
+.footerPrivacypolicy{
+  color:#cccacf;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+/* Apply styles for screens width above 768px */
+@media (min-width: 768px) {
+  .linkSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerCopyright{
+    display:flex;
+    justify-content:flex-start;
+  }
+  .footerPrivacypolicy{
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 33px;
+  }
+}
+/* Apply styles for screens width below 768px */
+@media (max-width: 768px) {
+  .getintouchcontainer {
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+  .getintouchaddress {
+    margin-bottom: 20px;
+  }
+  /* .linkcontainer{
+    margin-top: 25px;
+    margin-bottom: 15px;
+  } */
+  .getintouchiconcontainer {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
 }

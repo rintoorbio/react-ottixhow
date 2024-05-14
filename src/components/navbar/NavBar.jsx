@@ -60,8 +60,7 @@ function NavBar() {
     <Navbar
       expand="lg"
       className={`position-fixed ${navbarClass}`}
-      style={{ width: '100%', zIndex: 100, color: 'white',padding:"20px" }}
-    >
+      style={{ width: '100%', zIndex: 100, color: 'white', padding: "10px"}}>
       
       <Col lg={4}>
         <NavLink to="/">
@@ -117,10 +116,10 @@ function NavBar() {
 
       <Col lg={2} >
           <div className={`${styles.toggleIconend}`} >
-          <CgMenuGridO style={{color:"white",marginRight:"25px"}} onClick={()=>{setShow(true)}} className={`d-none d-lg-flex ${styles.cursor}`} size={25} />
+          <CgMenuGridO style={{color:"white"}} onClick={()=>{setShow(true)}} className={`d-none d-lg-flex ${styles.cursor}`} size={25} />
           <FiMenu onClick={()=>{
             setShowCanvas(true)
-          }} style={{color:"white",marginRight:"25px"}} size={25} className={`d-lg-none d-md-flex ${styles.cursor}`} />
+          }} style={{color:"white"}} size={25} className={`d-lg-none d-md-flex ${styles.cursor}`} />
           </div>
       </Col>
 

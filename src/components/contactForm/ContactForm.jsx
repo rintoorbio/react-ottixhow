@@ -13,13 +13,7 @@ function ContactForm() {
           <Col md={5}>
             <div className="newcard mb-1">
               <Col md={2}>
-                <FaMapMarked
-                  style={{
-                    fontSize: "55px",
-                    color: "#faa71c",
-                    marginLeft: "-7px",
-                  }}
-                />
+                <FaMapMarked style={{ fontSize: "55px", color: "#faa71c", paddingLeft: "-7px" }} />
               </Col>
               <Col md={10}>
                 <div style={{ marginLeft: "19px" }} >
@@ -31,17 +25,10 @@ function ContactForm() {
                 </div>
               </Col>
             </div>
-
-            <Row>
-              <div className="newcard1">
+            <div className="newcard mb-1">
                 <Col md={2}>
                   <IoMdMail
-                    style={{
-                      fontSize: "55px",
-                      color: "#faa71c",
-                      marginLeft: "-7px",
-                    }}
-                  />
+                    style={{ fontSize: "55px", color: "#faa71c", paddingLeft: "-7px" }} />
                 </Col>
                 <Col md={10}>
                   <div style={{ marginLeft: "23px" }}>
@@ -50,7 +37,6 @@ function ContactForm() {
                   </div>
                 </Col>
               </div>
-            </Row>
           </Col>
 
           <Col md={7}>

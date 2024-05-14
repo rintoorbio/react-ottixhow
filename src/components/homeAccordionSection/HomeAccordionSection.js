@@ -1,27 +1,29 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import HomeAccordion from "../homeAccordion/HomeAccordion";
+
+import styles from "./homeaccordion.module.css"
 
 function HomeAccordionSection() {
   return (
     <div>
-      <Container className="mt-4 mb-5">
+      <Container fluid className="mt-4 mb-5">
         <Row>
           <Col style={{ display: "flex", flexDirection: "column" }} sm={6}>
-            <h3>Understand</h3>
-            <h3>OttixHow in 3 easy steps</h3>
+            <h3 className={`${styles.heading}`} >Understand OttixHow in 3 easy steps</h3>
           </Col>
           <Col sm={6}></Col>
         </Row>
-        <Row>
-          <Col md={6}>
-            <img
+        <Row style={{marginTop:"45px"}}>
+          <Col className="p-0" md={6}>
+            <Image
               src="assets/accordionimage.jpg"
               alt="img"
-              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+              // style={{ width: "100%", height: "auto", objectFit: "contain", }}
+              className={`${styles.img}`}
             />
           </Col>
-          <Col md={6} style={{ marginTop: "10px" }}>
+          <Col md={6}>
             <HomeAccordion />
           </Col>
         </Row>

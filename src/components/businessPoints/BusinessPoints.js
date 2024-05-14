@@ -5,7 +5,7 @@ import {TiTick} from "react-icons/ti";
 
 function BusinessPoints() {
   return (
-    <Container className='mt-4 mb-4'>
+    <Container fluid className='mt-4 mb-4'>
     <Row>
     <Col lg={6}>
         <img 

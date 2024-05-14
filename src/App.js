@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
-import HomePage from "./pages/home/HomePage";
+// import HomePage from "./pages/home/HomePage";
 import Footer from "./components/footer/Footer";
 import AboutPage from "./pages/About/AboutPage";
 import ResourcePage from "./pages/Resource/ResourcePage";
@@ -18,6 +18,8 @@ import SalesStockAnalysis from "./pages/IndividualBlog/salesStockAnalysis/SalesS
 import AwardWinning from "./pages/IndividualBlog/awardWinning/AwardWinning";
 import ScrollToTop from "./components/ScrollToTop";
 import ErrorPage from "./pages/errorPage/ErrorPage";
+import HomePage from "./pages/home/HomePage";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
         <Route path="/competitor-analysis" element={<CompetitorAnalysis />} />
         <Route path="/sales-analysis" element={<SalesAnalysis />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

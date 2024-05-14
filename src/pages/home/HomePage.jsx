@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
-import HomeToggleButtons from '../../components/homeTogglebuttons/HomeToggleButtons';
 import HomePriceSection from "../../components/homePriceSection/HomePriceSection";
 import HomeSalesSection from "../../components/homeSalesSection/HomeSalesSection";
 import HomeSectionText from "../../components/homeSectionText/HomeSectionText";
@@ -9,17 +7,17 @@ import HomeColSection from "../../components/homeColSections/HomeColSection";
 import HomeAccordionSection from "../../components/homeAccordionSection/HomeAccordionSection";
 import HomeToolsSection from "../../components/homeToolsSection/HomeToolsSection";
 import FooterImgSection from "../../components/footerimg/FooterImg";
-import HomeMultiCardSlider from '../../components/homeMultiCardSlider/HomeMultiCardSlider';
+import HomeToggleButtons from '../../components/homeTogglebuttons/HomeToggleButtons';
+import HomeCarousel from '../../components/HomeCarousel';
+import HomeMultiCardSlider from '../../components/HomeMultiCardSlider';
+
 
 
 function HomePage() {
     const [lastHovered, setLastHovered] = useState("PRICING ANALYSIS");
   return (
     <div>
-    
-      <div>
-        <HomeCarousel />
-      </div>
+      <HomeCarousel />
       <div style={{
         marginTop:"-169px",
         zIndex:99,

@@ -1,27 +1,29 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import styles from "./homesales.module.css"
 
 function HomeSalesSection() {
   return (
     <div className="mt-5">
-      <Container>
+      <Container fluid>
         <Row>
-          <Col md={6}>
-            <h1 style={{ fontSize: "40px" }}>Competitor Analysis</h1>
-            <p style={{ color: "#7a7e83", fontSize: "18px" }}>
-              OttixHow identifies and analyses competitors, providing product
-              details from various marketplaces in a centralized dashboard. It
-              analyses trends and competitor strategies to drive demand,
-              maximize sales, and stay ahead of the competition through diligent
-              price tracking.
+          <Col md={6} style={{padding:"37px"}}>
+            <h1>Sales Analysis</h1>
+            <p style={{ color: "#7a7e83", fontSize: "17px" }}>
+              OttixHow provides a sales dashboard with detailed metrics on
+              average monthly sales by region, store, department, and product
+              type. It helps businesses analyse historical demand, customer
+              behaviour, and emerging trends to optimize revenue, profitability,
+              inventory management, and identify upsell opportunities.
             </p>
           </Col>
-          <Col md={6}>
-            <img
-              src="assets/competitoranalysis.jpg"
+          <Col md={6} className="p-0">
+          <Image src="assets/salesanalysis.jpg" className={`${styles.img}`} />
+            {/* <img
+              src="assets/salesanalysis.jpg"
               alt="salesimg"
               style={{ height: "auto", width: "100%" }}
-            />
+            /> */}
           </Col>
         </Row>
       </Container>
