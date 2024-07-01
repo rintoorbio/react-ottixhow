@@ -9,7 +9,7 @@ function AwardWinning() {
      <div>
         <Col sm={12} style={{ position: "relative", padding: "0px" }}>
           <img
-            src="/assets/7.jpg"
+            src="/assets/7.WebP"
             alt="img"
             style={{ width: "100%", height: "auto" }}
           />

@@ -5,12 +5,22 @@ import ScheduleDemoArrow from "../scheduledemoarrow/ScheduleDemoArrow";
 function Cannibalization() {
   return (
     <div className="p-5">
-      <Container fluid>
-        <Row>
+      <Container>
+              <h2 className="text-center">Cannibalization and Halo effect</h2>
+        <Row className="d-flex align-items-center" >
           <Col md={6}>
             <div>
-              <h2>Cannibalization and Halo effect</h2>
+              <img
+                alt="img"
+                style={{ height: "auto", width: "100%" }}
+                src="/assets/growchart.WebP"
+              />
             </div>
+            <div style={{marginTop:'12px'}}>
+            <ScheduleDemoArrow />
+            </div>
+          </Col>
+          <Col md={6}>
             <div>
               <p>
                 Develop a comprehensive comprehension of the Cannibalization &
@@ -18,17 +28,6 @@ function Cannibalization() {
                 and skilfully handle this phenomenon is imperative for attaining
                 sustainable growth and profitability over the long run.
               </p>
-            </div>
-            <div>
-              <img
-                alt="img"
-                style={{ height: "auto", width: "100%" }}
-                src="/assets/growchart.jpg"
-              />
-            </div>
-          </Col>
-          <Col md={6}>
-            <div>
               <p>
                 By conducting a thorough analysis of market dynamics, consumer
                 behaviour, and product positioning, we can furnish you with
@@ -48,9 +47,6 @@ function Cannibalization() {
                 behaviour. Embrace the power of the halo effect to leave a
                 lasting impact on your target audience.
               </p>
-            </div>
-            <div className="mt-5" >
-            <ScheduleDemoArrow />
             </div>
           </Col>
         </Row>

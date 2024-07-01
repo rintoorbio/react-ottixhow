@@ -5,13 +5,9 @@ import ScheduleDemoArrow from "../scheduledemoarrow/ScheduleDemoArrow";
 function BasketAnalysis() {
   return (
     <div>
-      <Container fluid className="p-5">
-        <Row>
-          <Col sm={12}>
-            <h1>Basket Analysis</h1>
-          </Col>
-        </Row>
-        <Row>
+      <Container className="p-5">
+        <h1 className="text-center" >Basket Analysis</h1>
+        <Row className="d-flex align-items-center" >
         <Col md={6}>
           <p style={{color:"#7a7e83",fontSize:"17px"}} >
             Uncover valuable insights by exploring the connections between
@@ -33,7 +29,7 @@ function BasketAnalysis() {
         </Col>
         <Col md={6} style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
             <Card style={{height:"180px"}}>
-            <Card.Img variant="top" src="/assets/basketanalysis.png" style={{height:"100%",width:"100%"}} />
+            <Card.Img variant="top" src="/assets/basketanalysis.WebP" style={{height:"100%",width:"100%"}} />
             </Card>
             <div className="mt-4" >
                 <ScheduleDemoArrow />

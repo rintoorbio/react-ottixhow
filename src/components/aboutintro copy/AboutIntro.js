@@ -11,7 +11,7 @@ function AboutIntro() {
         <div>
         <img 
         style={{height:"auto",width:"100%"}}
-        src="assets/whatwedo.jpg"
+        src="assets/whatwedo.WebP"
         alt="img"
         />
         </div>

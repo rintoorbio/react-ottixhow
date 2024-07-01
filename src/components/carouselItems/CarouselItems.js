@@ -13,7 +13,7 @@ function CarouselItems({ title, desc }) {
 
 
   return (
-    <Carousel.Caption style={{display: "flex",justifyContent: "flex-start",alignItems: "center",top: "-52px",color: "white",}}>
+    <Carousel.Caption style={{display: "flex",justifyContent: "flex-start",alignItems: "center",top: "52px",color: "white",}}>
       <div
         style={{ width: "450px",  display: "flex",flexDirection: "column",}}>
         <h1

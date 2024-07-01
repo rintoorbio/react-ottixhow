@@ -16,7 +16,7 @@ function SalesAnalysis() {
       <Container fluid>
         <Row>
         <Col sm={12} style={{ position: 'relative',padding:'0px' }}>
-            <img src="/assets/saleshome.jpg" alt="sales logo" style={{ width: '100%', height: '267px',objectFit:"cover" }} />
+            <img src="/assets/saleshome.WebP" alt="sales logo" style={{ width: '100%', height: '267px',objectFit:"cover" }} />
             <div style={{ position: 'absolute', top: '55%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white',  zIndex: '1' }}>
               <span className={`${styles.salesheading}`} >Sales Analysis</span>
             </div>

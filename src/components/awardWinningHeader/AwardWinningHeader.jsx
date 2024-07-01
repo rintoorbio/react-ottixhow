@@ -21,7 +21,7 @@ function AwardWinningHeader() {
           }}
         >
           <a href="https://www.orbiosolutions.com/">
-            <img src="assets/orbioLogo.png" alt="img" />
+            <img src="assets/orbioLogo.WebP" alt="img" />
           </a>
         </div>
         <div className="mb-5 mt-5" >
@@ -143,7 +143,7 @@ function AwardWinningHeader() {
         >
           <img
             style={{ height: "auto", width: "100%" }}
-            src="assets/ottixhowlisting.png"
+            src="assets/ottixhowlisting.WebP"
             alt="img"
           />
         </div>
@@ -217,7 +217,7 @@ function AwardWinningHeader() {
               <img
                 alt="img"
                 style={{ height: "auto", width: "100%" }}
-                src="assets/rakesh.jpg"
+                src="assets/rakesh.WebP"
               />
             </Col>
           </Row>
@@ -231,14 +231,14 @@ function AwardWinningHeader() {
           <Col md={6}>
             <IndividualBlogCard
             goto={"/sales-and-stocks-analysis"}
-              img="/assets/5.png"
+              img="/assets/5.WebP"
               title="Sales and Stocks Analysis"
             />
           </Col>
           <Col md={6}>
             <IndividualBlogCard
             goto={"/dynamics-of-retail-price-index-and-consumer-price"}
-              img="/assets/3.png"
+              img="/assets/3.WebP"
               title="Unveiling the Dynamics of Retail Price Index and Consumer Price Index: An In-Depth Analysis"
             />
           </Col>

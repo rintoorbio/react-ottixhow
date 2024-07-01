@@ -9,7 +9,7 @@ function LeverageSalesAnalysis() {
     <div>
         <Col sm={12} style={{ position: "relative", padding: "0px" }}>
           <img
-            src="/assets/1.png"
+            src="/assets/1.WebP"
             alt="img"
             style={{ width: "100%", height: "auto" }}
           />

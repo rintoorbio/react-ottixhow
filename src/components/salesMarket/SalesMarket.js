@@ -6,12 +6,12 @@ function SalesMarket() {
     
   return (
     <div>
-    <Container fluid className="p-5" >
-        <Row>
+    <Container className="p-5" >
+        <Row className="d-flex align-items-center" >
           <Col md={5}>
             <div style={{display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
             <img
-              src="/assets/salesmarket.jpg"
+              src="/assets/salesmarket.WebP"
               alt="img"
               style={{ height: "auto", width: "100%" }}
             />

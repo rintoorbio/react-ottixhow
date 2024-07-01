@@ -8,7 +8,7 @@ function ContactImage() {
         <Row>
           <Col sm={12} style={{ position: "relative", padding: "0px" }}>
             <img
-              src="/assets/background1.jpg"
+              src="/assets/background1.WebP"
               alt="sales logo"
               style={{ width: "100%", height: "267px", objectFit: "cover" }}
             />

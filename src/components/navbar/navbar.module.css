@@ -10,11 +10,12 @@
   font-size: 17px;
 }
 .navlink:hover {
-  color: #faa71c;
+  color: #faa71c !important;
 }
 .toggleIconend {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .dropdownNav {
   font-size: 17px !important;
@@ -28,7 +29,7 @@
   color: white;
 }
 .active {
-  color: #faa71c;
+  color: #faa71c !important;
 }
 .navBackground {
   background-color: transparent;

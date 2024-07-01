@@ -1,41 +1,28 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
-import { useNavigate } from "react-router-dom";
 
 function CompetitorAlert() {
-  const navigate = useNavigate();
+
+  const handleNavigateContact = ()=>{
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/orbiosolutions' })
+    return false
+  }
   return (
     <div>
-    <Container fluid className="pb-5">
-      <Row>
+    <Container className="pb-5">
+      <h1 className="text-center" >Alert</h1>
+      <Row className="d-flex align-items-center">
         <Col md={6}>
           <div>
             <img
-              src="assets/alelrt.jpg"
+              src="assets/alelrt.WebP"
               alt="img"
               style={{ height: "auto", width: "100%" }}
             />
           </div>
-          <div>
-            <p
-              style={{
-                color: "#717780",
-                fontSize: "16px",
-                wordBreak: "break-word",
-              }}
-            >
-              Don’t miss out on crucial pricing insights. Set up personalized
-              alerts today and take control of your competitive positioning.
-              Stay informed, adapt quickly, and optimize your pricing strategies
-              to stay ahead in the market.
-            </p>
-          </div>
         </Col>
         <Col md={6}>
-          <div>
-            <h3>Alert</h3>
-          </div>
           <div>
             <p
               style={{
@@ -54,9 +41,21 @@ function CompetitorAlert() {
               strategies strategically, ensuring that you stay competitive and
               seize opportunities to capture a larger market share.
             </p>
+            <p
+            style={{
+              color: "#717780",
+              fontSize: "16px",
+              wordBreak: "break-word",
+            }}
+            >
+              Don’t miss out on crucial pricing insights. Set up personalized
+              alerts today and take control of your competitive positioning.
+              Stay informed, adapt quickly, and optimize your pricing strategies
+              to stay ahead in the market.
+            </p>
           </div>
           <div
-            onClick={() => navigate("/contact-us")}
+            onClick={handleNavigateContact}
             style={{ cursor: "pointer" }}
           >
             <span style={{ marginTop: "79px", fontSize: "16px" }}>

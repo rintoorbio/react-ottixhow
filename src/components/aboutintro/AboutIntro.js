@@ -8,13 +8,13 @@ import { useNavigate } from 'react-router-dom';
 function AboutIntro() {
   const navigate = useNavigate()
   return (
-    <Container fluid>
-    <Row>
+    <Container>
+    <Row  style={{display:"flex",justifyContent:"center", alignItems:"center",}} >
     <Col md={6} >
         <div>
         <img 
         style={{height:"auto",width:"100%"}}
-        src="assets/whatwedo.jpg"
+        src="assets/whatwedo.WebP"
         alt="img"
         />
         </div>
@@ -42,10 +42,10 @@ function AboutIntro() {
             </p>
             <div className='mt-4' >
               <ul style={{ lineHeight:"18px" }} >
-                <li><p className={`${styles.navitemlink}`} ><a href="https://www.orbiosolutions.com/our-services/digital-transformation-automation/">Enterprises Application Services</a></p></li>
-                <li><p className={`${styles.navitemlink}`} ><a href="https://www.orbiosolutions.com/our-services/digital-transformation-automation/">Technology Consulting</a></p></li>
-                <li><p className={`${styles.navitemlink}`} ><a href="https://www.orbiosolutions.com/our-services/data-intelligence/">Data Intelligence</a></p></li>
-                <li><p className={`${styles.navitemlink}`} ><a href="https://www.orbiosolutions.com/our-services/data-intelligence/">Quality Engineering</a></p></li>
+                <li><p className={`${styles.navitemlink}`} ><a target='_blank' rel="noopener noreferrer" href="https://www.orbiosolutions.com/business-it-solutions">Enterprises Application Services</a></p></li>
+                <li><p className={`${styles.navitemlink}`} ><a target='_blank' rel="noopener noreferrer" href="https://www.orbiosolutions.com/technology-consulting">Technology Consulting</a></p></li>
+                <li><p className={`${styles.navitemlink}`} ><a target='_blank' rel="noopener noreferrer" href="https://www.orbiosolutions.com/data-analytics">Data Intelligence</a></p></li>
+                <li><p className={`${styles.navitemlink}`} ><a target='_blank' rel="noopener noreferrer" href="https://www.orbiosolutions.com/quality-engineering">Quality Engineering</a></p></li>
               </ul>
             </div>
       </Col>

@@ -12,7 +12,7 @@ function ResouceSocialMedia() {
 
   return (
     <div style={{ background: "#f6f6f6", padding: "26px", width: "100%" }}>
-      <h6>SOCIAL MEDIA</h6>
+      <h6 className="text-center" >INFOGRAPHICS</h6>
       <div
         style={{
           display: "flex",
@@ -36,15 +36,6 @@ function ResouceSocialMedia() {
         </div>
           ))
         }
-      </div>
-      <div style={{ textAlign: "center",marginTop:"15px" }}>
-        <a href="https://www.instagram.com/ottixhow/">
-          <button
-            className={`${styles.followbtn}`}
-          >
-            Follow Me
-          </button>
-        </a>
       </div>
     </div>
   );

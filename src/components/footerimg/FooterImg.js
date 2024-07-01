@@ -12,7 +12,7 @@ function FooterImgSection() {
     <div>
         <Col style={{ paddingLeft: '0px', paddingRight: '0px', position: 'relative' }} sm={12}>
   <img
-    src='assets/pricegraph.jpg'
+    src='assets/pricegraph.WebP'
     style={{ width: '100%', height: '433px',objectFit:"cover" }}
     alt='img'
   />

@@ -257,14 +257,16 @@ function SalesandStocksAnalysisHeader() {
           </div>
           <Col md={6}>
             <IndividualBlogCard
-              img="/assets/4.jpg"
+              goto={"/award-winning-company-orbio-solutions"}
+              img="/assets/4.WebP"
               title="“Orbio Solutions: Pioneering AI-Driven Analytical Excellence with Award-Winning Product, OttixHow”"
             />
           </Col>
           <Col md={6}>
             <IndividualBlogCard
-              img="/assets/5.png"
-              title="Sales and Stocks Analysis"
+              goto={"/leveraging-sales-analysis-and-competitor-price-index-for-business-growth"}
+              img="/assets/1.WebP"
+              title="Leveraging Sales Analysis and Competitor Price Index for Business Growth"
             />
           </Col>
         </Row>

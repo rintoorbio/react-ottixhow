@@ -8,7 +8,7 @@ function ResourcesHome() {
       <Row>
         <Col sm={12} style={{ position: 'relative', padding: '0' }}>
           <img
-            src="/assets/resourcehome.jpg"
+            src="/assets/resourcehome.WebP"
             alt="about logo"
             style={{ width: '100%', height: 'auto' }}
           />
@@ -20,11 +20,11 @@ function ResourcesHome() {
             }}>
             <span
               style={{ fontSize: '3vw', fontWeight: '600', lineHeight: '1.2', }} >
-              Why Power BI and Microsoft Azure are better together
+              Competitor Analysis Platform
             </span>
             <div style={{ marginTop: '8px' }}>
-              <span style={{ fontSize: '2vw', fontWeight: '300', lineHeight: '1.2' }} >
-                Turn your data into a competitive advantage by using Power BI and Azure together to connect, combine, and analyze your entire data estate.
+              <span style={{ fontSize: '1.8vw', fontWeight: '300', lineHeight: '1.2' }} >
+              Explore our competitor analysis platform and discover how it can outgrow your competitors.
               </span>
             </div>
           </div>

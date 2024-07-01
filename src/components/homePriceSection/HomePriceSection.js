@@ -5,9 +5,9 @@ import styles from "./homeprice.module.css";
 function HomePriceSection() {
   return (
     <div className={`mt-5`}>
-      <Container fluid>
+      <Container>
         <Row>
-          <Col md={6} style={{padding:"37px"}} >
+          <Col md={6} className={styles.colPadding} >
             <h1>Competitor Analysis</h1>
             <p style={{ color: "#7a7e83", fontSize: "17px" }}>
               OttixHow identifies and analyses competitors, providing product
@@ -19,7 +19,7 @@ function HomePriceSection() {
           </Col>
           <Col md={6} className="p-0">
             <Image
-              src="assets/competitoranalysis.jpg"
+              src="assets/competitoranalysis.WebP"
               className={`${styles.img}`}
             />
           </Col>

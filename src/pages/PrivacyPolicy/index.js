@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     <Container fluid>
     <Row>
     <Col sm={12} style={{ position: 'relative',padding:'0px' }}>
-        <img src="/assets/privacypolicy.jpg" alt="provacy logo" style={{ width: '100%', height: '267px',objectFit:"cover" }} />
+        <img src="/assets/privacypolicy.WebP" alt="provacy logo" style={{ width: '100%', height: '267px',objectFit:"cover" }} />
         <div style={{ position: 'absolute', top: '55%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white',  zIndex: '1' }}>
           <span className={`${styles.salesheading}`} >Privacy Policy</span>
         </div>

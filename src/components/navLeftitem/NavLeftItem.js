@@ -53,7 +53,7 @@ function CustomToggle({ children, eventKey }) {
             <img 
             style={{ maxWidth: '77%',height: 'auto'}}
             alt='logo'
-            src='/assets/OttixhowLogo.jpg'
+            src='/assets/OttixhowLogo.WebP'
             />
             <AiOutlineClose 
             className='d-md-none'

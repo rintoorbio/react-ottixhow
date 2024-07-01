@@ -410,14 +410,14 @@ function UnveilingCustomerHeader() {
           <Col md={6}>
             <IndividualBlogCard
             goto={"/leveraging-sales-analysis-and-competitor-price-index-for-business-growth"}
-              img="/assets/1.png"
+              img="/assets/1.WebP"
               title="Leveraging Sales Analysis and Competitor Price Index for Business Growth"
             />
           </Col>
           <Col md={6}>
             <IndividualBlogCard
             goto={"/dynamics-of-retail-price-index-and-consumer-price"}
-              img="/assets/3.png"
+              img="/assets/3.WebP"
               title="Unveiling the Dynamics of Retail Price Index and Consumer Price Index: An In-Depth Analysis"
             />
           </Col>

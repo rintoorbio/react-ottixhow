@@ -1,15 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
-import { useNavigate } from "react-router-dom";
 
 function PriceTracking() {
-    const navigate = useNavigate()
+    
+    const handleNavigateContact = ()=>{
+      window.Calendly.initPopupWidget({ url: 'https://calendly.com/orbiosolutions' })
+      return false
+    }
+
   return (
     <div>
-    <Container fluid className="mt-4 mb-3" >
+    <Container className="mt-4 mb-3" >
       <Row className="mb-3">
-        <h1>Price Tracking</h1>
+        <h1 className="text-center mb-3">Price Tracking</h1>
       </Row>
       <Row
         style={{
@@ -40,13 +44,13 @@ function PriceTracking() {
           }}
         >
           <img
-            src="assets/pricetracking.jpg"
+            src="assets/pricetracking.WebP"
             alt="img"
             style={{ objectFit: "contain", width: "100%", height: "auto" }}
           />
         </Col>
       </Row>
-      <Row onClick={()=>navigate("/contact-us")} style={{cursor: "pointer"}} >
+      <Row onClick={handleNavigateContact} style={{cursor: "pointer"}} >
         <p style={{color:"black", fontSize: "17px", marginTop: "12px" }}>
           Schedule a demo to know more
           <span>

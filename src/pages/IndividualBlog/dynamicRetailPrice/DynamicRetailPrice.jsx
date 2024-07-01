@@ -9,7 +9,7 @@ function DynamicRetailPrice() {
     <div>
         <Col sm={12} style={{ position: "relative", padding: "0px" }}>
           <img
-            src="/assets/6.png"
+            src="/assets/6.WebP"
             alt="img"
             style={{ width: "100%", height: "auto" }}
           />

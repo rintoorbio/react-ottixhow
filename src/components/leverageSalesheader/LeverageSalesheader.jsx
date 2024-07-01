@@ -403,14 +403,14 @@ function LeverageSalesheader() {
           <Col md={6}>
             <IndividualBlogCard
             goto={"/unveiling-customer-insights-market-basket-analysis"}
-              img="/assets/2.png"
+              img="/assets/2.WebP"
               title="Unveiling Customer Insights: Market Basket Analysis, Cannibalization, and Halo Effect"
             />
           </Col>
           <Col md={6}>
             <IndividualBlogCard
             goto={"/sales-and-stocks-analysis"}
-              img="/assets/5.png"
+              img="/assets/5.WebP"
               title="Sales and Stocks Analysis"
             />
           </Col>

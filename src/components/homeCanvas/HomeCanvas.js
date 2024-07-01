@@ -3,14 +3,11 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import styles from "./canvas.module.css";
 import { Button } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
-import { useNavigate } from "react-router-dom";
 
 function HomeCanvas({ show, handleClose }) {
-  const navigate = useNavigate()
 
   const handleNavigateContact = ()=>{
-    navigate("/contact-us")
-    handleClose()
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/orbiosolutions' });
   }
 
   const handleMouseEnter = (e) => {
@@ -33,7 +30,7 @@ function HomeCanvas({ show, handleClose }) {
         <Offcanvas.Header>
           <img
             className={`${styles.logoimg}`}
-            src="/assets/OttixhowCanvas.jpg"
+            src="/assets/OttixhowCanvas.WebP"
             alt="logo"
           />
           <button

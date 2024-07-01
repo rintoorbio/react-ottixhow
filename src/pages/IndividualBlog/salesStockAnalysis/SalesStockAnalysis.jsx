@@ -9,7 +9,7 @@ function SalesStockAnalysis() {
     <div>
         <Col sm={12} style={{ position: "relative", padding: "0px" }}>
           <img
-            src="/assets/5.png"
+            src="/assets/5.WebP"
             alt="img"
             style={{ width: "100%", height: "auto" }}
           />

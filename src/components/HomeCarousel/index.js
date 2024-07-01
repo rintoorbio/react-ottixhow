@@ -8,7 +8,7 @@ const HomeCarousel = () => {
         <Carousel.Item>
         <img
         alt="img"
-          src="assets/background2.jpg"
+          src="assets/homebg.WebP"
           style={{ height: "100vh", minWidth: "100vw" }}
         />
         <CarouselItems
@@ -19,7 +19,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
         alt="img"
-          src="assets/background1.jpg"
+          src="assets/background1.WebP"
           style={{ height: "100vh", minWidth: "100vw" }}
         />
         <CarouselItems
@@ -30,7 +30,8 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
         alt="img"
-          src="assets/background2.jpg"
+          // src="assets/background2.WebP"
+          src="assets/homebg1.WebP"
           style={{ height: "100vh", minWidth: "100vw" }}
         />
         <CarouselItems

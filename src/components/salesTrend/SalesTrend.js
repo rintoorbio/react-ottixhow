@@ -5,14 +5,9 @@ import ScheduleDemoArrow from "../scheduledemoarrow/ScheduleDemoArrow";
 function SalesTrend() {
   return (
     <div style={{ background: "#f9f9f9" }} >
-    <Container
-      className="p-5"
-      fluid
-    >
-      <Row>
-        <h1>Sales Trend</h1>
-      </Row>
-      <Row>
+    <Container className="p-5 pt-3">
+        <h1 className="text-center" >Sales Trend</h1>
+      <Row className="d-flex align-items-center" >
         <Col md={7}>
           <p style={{color:"#7a7e83",fontSize:"17px"}} >
             With our user-friendly dashboard, you can easily monitor your
@@ -37,7 +32,7 @@ function SalesTrend() {
         <Col md={5}>
             <div style={{display:"flex",justifyContent:"center",alignItems:"center"}} >
             <img 
-            src="assets/salesbar.jpg"
+            src="assets/salesbar.WebP"
             alt="img"
             style={{height:"auto",width:"100%"}}
             />

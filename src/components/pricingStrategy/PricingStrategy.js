@@ -1,20 +1,20 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
-
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
 function PricingStrategy() {
-  const navigate = useNavigate();
+
+  const handleNavigateContact = ()=>{
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/orbiosolutions' })
+    return false
+  }
 
   return (
     <div className="p-5" style={{ backgroundColor: "#001d2c" }}>
-      <Container fluid>
-        <Row>
+      <Container>
+        <h2 className="text-center text-white" >Pricing strategy</h2>
+        <Row style={{display:"flex", justifyContent:"center",alignItems:"center"}} >
           <Col md={6}>
-            <div style={{ color: "white" }}>
-              <h2>Pricing strategy</h2>
-            </div>
             <div >
               <p style={{ color: "#7a7e83", fontSize: "17px" }}>
                 The Consumer Price Index (CPI) is a valuable resource for
@@ -40,24 +40,24 @@ function PricingStrategy() {
               <img
                 alt="img"
                 style={{ height: "auto", width: "100%" }}
-                src="/assets/salesbar.jpg"
+                src="/assets/salesbar.WebP"
               />
             </div>
 
             <div
-              onClick={() => navigate("/contact-us")}
+              onClick={handleNavigateContact}
               style={{
                 color: "#faa71c",
                 cursor: "pointer",
-                marginTop: "79px",
+                marginTop:'12px',
                 fontSize: "16px",
               }}
             >
               <span>
-                Schedule a demo to know more{" "}
+                Schedule a demo to know more
                 <span>
                   <LiaLongArrowAltRightSolid />
-                </span>{" "}
+                </span>
               </span>
             </div>
           </Col>

@@ -22,35 +22,35 @@ function ResourcePage() {
           <Col md={3} lg={3} sm={2}>
             <BlogCards
               goto={"/unveiling-customer-insights-market-basket-analysis"}
-              img={"assets/card1.jpg"}
+              img={"assets/card1.WebP"}
               title="Unveiling Customer Insights: Market Basket Analysis, Cannibalization, and Halo Effect"
             />
           </Col>
           <Col md={3} lg={3} sm={2}>
             <BlogCards
               goto={"/leveraging-sales-analysis-and-competitor-price-index-for-business-growth"}
-              img={"assets/card2.jpg"}
+              img={"assets/card2.WebP"}
               title="Leveraging Sales Analysis and Competitor Price Index for Business Growth"
             />
           </Col>
           <Col md={3} lg={3} sm={2}>
             <BlogCards
               goto={"/dynamics-of-retail-price-index-and-consumer-price"}
-              img={"assets/card3.jpg"}
+              img={"assets/card3.WebP"}
               title="Unveiling the Dynamics of Retail Price Index and Consumer Price Index: An In-Depth Analysis"
             />
           </Col>
           <Col md={3} lg={3} sm={2}>
             <BlogCards
               goto={"/sales-and-stocks-analysis"}
-              img={"assets/card4.jpg"}
+              img={"assets/card4.WebP"}
               title="Sales and Stocks Analysis"
             />
           </Col>
           <Col md={3} lg={3} sm={2}>
             <BlogCards
               goto={"/award-winning-company-orbio-solutions"}
-              img={"assets/card5.jpg"}
+              img={"assets/card5.WebP"}
               title="“Orbio Solutions: Pioneering AI-Driven Analytical Excellence with Award-Winning Product, OttixHow”"
             />
           </Col>

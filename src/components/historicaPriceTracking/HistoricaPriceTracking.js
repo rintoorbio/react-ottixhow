@@ -1,43 +1,36 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {LiaLongArrowAltRightSolid} from "react-icons/lia"
-import { useNavigate } from "react-router-dom";
 
 function HistoricalPriceTracking() {
-  const navigate = useNavigate()
+  
+  const handleNavigateContact = ()=>{
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/orbiosolutions' })
+    return false
+  }
+
   return (
-    <div>
+    <div style={{background: "#1f242e"}} >
     <Container
-      fluid
+      // fluid
       // fullWidth
       className="p-4"
-      style={{ background: "#1f242e", minHeight: "100vh", }}
+      style={{ minHeight: "100vh", }}
     >
-      <Row >
+        <h1 className="text-white text-center">Historical Price Monitoring</h1>
+      <Row className="d-flex align-items-center" >
         <Col md={6}>
           <div>
-            <h1 style={{ color: "white" }}>Historical Price Monitoring</h1>
-          </div>
-          <div>
             <img
-              src="assets/historicalprice.png"
+              src="assets/historicalprice.WebP"
               alt="img"
               style={{ width: "100%", height: "auto" }}
             />
           </div>
-          <div onClick={()=>navigate("/contact-us")} style={{ color: "#faa71c",cursor:"pointer",marginTop:"79px",fontSize:"16px" }}>
-            <span>Schedule a demo to know more <span><LiaLongArrowAltRightSolid /></span> </span>
-          </div>
         </Col>
         <Col md={6}>
           <div>
-            <p
-              style={{
-                color: "#717780",
-                fontSize: "16px",
-                wordBreak: "break-word",
-              }}
-            >
+            <p style={{ color: "#717780", fontSize: "16px", wordBreak: "break-word" }} >
               Stay ahead of the competition by gaining valuable insights into
               their historical price fluctuations. It is crucial to stay
               informed about your competitors, especially when they are running
@@ -61,6 +54,9 @@ function HistoricalPriceTracking() {
               ahead of the competition and make strategic pricing decisions
               based on comprehensive insights.
             </p>
+          </div>
+          <div onClick={handleNavigateContact} style={{ color: "#faa71c",cursor:"pointer",marginTop:"12px",fontSize:"16px" }}>
+            <span>Schedule a demo to know more <span><LiaLongArrowAltRightSolid /></span> </span>
           </div>
         </Col>
       </Row>

@@ -18,7 +18,7 @@ function Footer() {
       <Row  >
         <Col md={3} >
         <img 
-           src="assets/OttixhowLogo.jpg"
+           src="assets/OttixhowLogo.WebP"
            alt='img'
            style={{width:"65%",height:"auto",objectFit:"scale-down"}}
           />
@@ -78,7 +78,7 @@ function Footer() {
 <div className={`${styles.certificateicon}`} >
             <a rel="noreferrer" href="https://slashdot.org/software/p/OttixHow/?pk_campaign=badge&amp;pk_source=vendor" target="_blank">
             <img 
-              src='assets/userslove.jpg'
+              src='assets/userslove.WebP'
               alt='img'
               style={{ 
                 width:"80px",
@@ -90,7 +90,7 @@ function Footer() {
             </a>
             <a rel="noreferrer" href="https://sourceforge.net/software/product/OttixHow/?pk_campaign=badge&amp;pk_source=vendor" target="_blank">
             <img 
-              src='assets/lightdefault.jpg'
+              src='assets/lightdefault.WebP'
               alt='img'
               style={{ 
                 width:"80px",

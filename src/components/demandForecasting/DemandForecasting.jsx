@@ -5,19 +5,18 @@ import ScheduleDemoArrow from "../scheduledemoarrow/ScheduleDemoArrow";
 function DemandForecasting() {
   return (
     <div>
-      <Container fluid>
-        <Row>
+      <Container>
+      <h1 className="text-center" >Demand Forecasting – before pricing strategy</h1>
+        <Row className="d-flex align-items-center" >
           <Col md={6}>
             <img
             alt="img"
-              src="/assets/demandforecasting.png"
+              src="/assets/demandforecasting.WebP"
               style={{ height: "auto", width: "100%" }}
             />
+           <ScheduleDemoArrow />
           </Col>
           <Col md={6}>
-            <div>
-              <h1>Demand Forecasting – before pricing strategy</h1>
-            </div>
             <div>
               <p style={{ color: "#7a7e83", fontSize: "17px" }}>
                 OttixHow offers a powerful stock prediction tool that can
@@ -39,9 +38,6 @@ function DemandForecasting() {
                 practices. Gain valuable insights, strategize effectively, and
                 optimize your resources for maximum profitability.
               </p>
-            </div>
-            <div className="mt-4" >
-                <ScheduleDemoArrow />
             </div>
           </Col>
         </Row>

@@ -9,7 +9,7 @@ function UnveilingCustomer() {
       <div>
         <Col sm={12} style={{ position: "relative", padding: "0px" }}>
           <img
-            src="/assets/2.png"
+            src="/assets/2.WebP"
             alt="img"
             style={{ width: "100%", height: "auto" }}
           />
